@@ -15,9 +15,9 @@ const seedData = async () => {
     console.log('Cleared existing data');
 
     const user = await User.create({
-      username: 'nischal',
-      email: 'nischal@test.com',
-      password: 'password123'
+      username: 'raj',
+      email: 'dev@raj.codes',
+      password: 'password1223'
     });
     console.log('Created user:', user.username);
 
